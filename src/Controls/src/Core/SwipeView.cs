@@ -63,8 +63,8 @@ namespace Microsoft.Maui.Controls
 			set { SetValue(BottomItemsProperty, value); }
 		}
 
-		bool ISwipeViewController.IsOpen 
-		{ 
+		bool ISwipeViewController.IsOpen
+		{
 			get => ((ISwipeView)this).IsOpen;
 			set => ((ISwipeView)this).IsOpen = value;
 		}
